@@ -10,5 +10,5 @@ filter select-running {
 Get-Service | Select-Running -status Running
 
 # Samma sak
-Get-Service | Where-Object -FIlterScript {$_.Status -eq 'Running'}
+Get-Service | Where-Object -FilterScript {$_.Status -eq 'Running'}
 
